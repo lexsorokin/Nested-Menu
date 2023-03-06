@@ -24,7 +24,7 @@ python3 -m venv .venv  # linux or macos
 source .venv/bin/activate   # linux or macos
 ```
 
-:exclamation: Make sure that there's a "(venv)" title at the start of a terminal path line - that means you've succeeded at venv-activation.
+:exclamation: Make sure that there's a "(.venv)" title at the start of a terminal path line - that means you've succeeded at venv-activation.
 
 5. Install requirements: 
 
