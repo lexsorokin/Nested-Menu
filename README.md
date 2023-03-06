@@ -32,3 +32,5 @@ source .venv/bin/activate   # linux or macos
 pip install -r requirements.txt
 ```
 6. Have fun!
+
+:exclamation: Most important part :)
