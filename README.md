@@ -31,4 +31,4 @@ source .venv/bin/activate   # linux or macos
 ```
 pip install -r requirements.txt
 ```
-Have fun!
+6. Have fun!
