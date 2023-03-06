@@ -9,21 +9,17 @@
 
 {% block content %}
 	<nav class="navmenu">
-		<ul class="nav navbar-nav">
-			<div>
-				<ul class="megamenu">
-				{% recursetree categories %}
-					<li>
+		<ul>
+			{% recursetree categories %}
+				<li>
 					<a href="{{node.get_absolute_url}}">{{node.name}}</a>
 					{% if not node.is_leaf_node %}
-							<ul class="children">
-								{{ children }}
-							</ul>
+						<ul class="children megamenu">
+							<br>{{ children }}</br>
+						</ul>
 					{% endif %}
-					</li>
-				{% endrecursetree %}
-				</ul>
-			</div>
+				</li>
+			{% endrecursetree %}
 		</ul>
 	</nav>
 {% endblock %}
